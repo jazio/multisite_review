@@ -239,3 +239,10 @@ function multisite_review_filename_to_classname($filename) {
   $class_name = 'MultisiteReview' . implode('', $check_filename_parts_uc);
   return $class_name;
 }
+
+/**
+ * Command argument complete callback.
+ */
+function multisite_review_code_review_complete() {
+  return pm_complete_extensions();
+}
