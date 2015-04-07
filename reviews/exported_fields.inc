@@ -44,7 +44,7 @@ class MultisiteReviewExportedFields extends MultisiteQaReview implements Multisi
         return;
       }
       // Check if the field is locked.
-      if (empty($field_export['field_config']['locked'])) {
+      if (empty($field_export['locked'])) {
         $this->setMessage(t('Field "@field" is not locked.', array('@field' => $field_name)), 'warning', 'lock');
       }
       else {
