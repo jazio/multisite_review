@@ -17,7 +17,7 @@ const MULTISITE_REVIEW_FEATURES_API_VERSION = 'api:2';
 /**
  * The current multisite platform version.
  */
-const MULTISITE_REVIEW_MULTISITE_VERSION = '1.7';
+const MULTISITE_REVIEW_MULTISITE_VERSION = '2.1';
 
 require_once __DIR__ . '/multisite_review.review.inc';
 
