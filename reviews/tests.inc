@@ -23,9 +23,9 @@ class MultisiteReviewTests extends MultisiteQaReview implements MultisiteQaRevie
       return;
     }
 
-    // Check if the tests folder contains at least one test.
-    if (!glob($path . '/tests/*.test')) {
-      $this->setMessage(dt('There are no files matching the pattern "*.test" in the "/tests" folder.'), 'warning');
+    // Check if the behat tests folder contains at least one test.
+    if (!glob($path . '/tests/*.feature')) {
+      $this->setMessage(dt('There are no behat test files matching the pattern "*.feature" in the "/tests" folder.'), 'warning');
     }
   }
 
