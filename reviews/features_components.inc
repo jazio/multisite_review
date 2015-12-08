@@ -22,7 +22,6 @@ class MultisiteReviewFeaturesComponents extends MultisiteQaReview implements Mul
    */
   public function runTest() {
     // A list of Features components that should not be exported.
-
     $info = $this->extension->info;
     if (!empty($info['features'])) {
       if ($components = array_intersect($this->components_blacklist, array_keys($info['features']))) {
@@ -34,4 +33,5 @@ class MultisiteReviewFeaturesComponents extends MultisiteQaReview implements Mul
       }
     }
   }
+
 }

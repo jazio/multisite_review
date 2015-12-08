@@ -23,4 +23,5 @@ class MultisiteReviewIcon extends MultisiteQaReview implements MultisiteQaReview
       )), 'warning');
     }
   }
+
 }

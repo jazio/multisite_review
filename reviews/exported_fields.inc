@@ -67,7 +67,8 @@ class MultisiteReviewExportedFields extends MultisiteQaReview implements Multisi
         $description = dt('== All fields must be locked ==') . PHP_EOL;
         $description .= dt('To avoid inconsistency between the field settings on exported in features and the configuration in the database, it is required to lock all fields in the playground/production environment.') . PHP_EOL;
         $description .= dt('Read more about locking fields on the wiki: !link', array(
-          '!link' => 'http://todo')
+          '!link' => 'http://todo',
+        )
         ) . PHP_EOL;
         break;
 

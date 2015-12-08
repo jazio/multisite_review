@@ -33,6 +33,7 @@ class MultisiteReviewInfoFile extends MultisiteQaReview implements MultisiteQaRe
    * Define a list of required keys.
    *
    * These are all specified in the custom feature development guidelines.
+   *
    * @see https://webgate.ec.europa.eu/fpfis/wikis/display/MULTISITE/Build+custom+features
    */
   public function requiredKeys() {
@@ -149,4 +150,5 @@ class MultisiteReviewInfoFile extends MultisiteQaReview implements MultisiteQaRe
       )), 'warning');
     }
   }
+
 }

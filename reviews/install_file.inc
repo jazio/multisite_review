@@ -79,4 +79,5 @@ class MultisiteReviewInstallFile extends MultisiteQaReview implements MultisiteQ
       }
     }
   }
+
 }

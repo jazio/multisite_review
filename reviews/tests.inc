@@ -28,4 +28,5 @@ class MultisiteReviewTests extends MultisiteQaReview implements MultisiteQaRevie
       $this->setMessage(dt('There are no files matching the pattern "*.test" in the "/tests" folder.'), 'warning');
     }
   }
+
 }

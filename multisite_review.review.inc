@@ -9,7 +9,7 @@
  * Interface describing the Qa check plugin structure.
  *
  * Please note that implementing class names should be derived from their
- * file path: my_awesome_check.inc => MultisiteReviewMyAwesomeCheck
+ * file path: my_awesome_check.inc => MultisiteReviewMyAwesomeCheck.
  */
 interface MultisiteQaReviewInterface {
   /**
@@ -31,14 +31,17 @@ interface MultisiteQaReviewInterface {
    * Returns all set messages.
    */
   public function getMessages();
-}
 
+}
+/**
+ *
+ */
 abstract class MultisiteQaReview {
   public $extension = NULL;
   protected $messages = array();
 
   /**
-   * user facing name for the QA check.
+   * User facing name for the QA check.
    */
   public static $name = NULL;
   /**
@@ -94,4 +97,5 @@ abstract class MultisiteQaReview {
   public function help($component = 'general') {
     return '';
   }
+
 }

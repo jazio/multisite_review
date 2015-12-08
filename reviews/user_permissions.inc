@@ -62,4 +62,5 @@ class MultisiteReviewUserPermissions extends MultisiteQaReview implements Multis
       }
     }
   }
+
 }
