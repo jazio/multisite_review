@@ -39,7 +39,7 @@ function multisite_review_drush_command() {
       // @todo
       'checks' => 'Provide an explicit list of checks to run. Defaults to all.',
     ),
-    'aliases' => array('cr'),
+    'aliases' => array('qa'),
   );
   return $items;
 
