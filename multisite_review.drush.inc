@@ -7,7 +7,7 @@
 /**
  * The PHP version that should be present in reviewed modules' .info files.
  */
-const MULTISITE_REVIEW_PHP_VERSION = '5.2.4';
+const MULTISITE_REVIEW_PHP_VERSION = '5.6.9';
 
 /**
  * The Features API version that is currently supported.
